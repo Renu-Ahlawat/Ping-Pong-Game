@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  position: relative;
+}
+body #app {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: hsla(277, 79%, 84%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(277, 79%, 84%, 1) 0%,
+    hsla(204, 95%, 77%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(277, 79%, 84%, 1) 0%,
+    hsla(204, 95%, 77%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(277, 79%, 84%, 1) 0%,
+    hsla(204, 95%, 77%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDB4F6", endColorstr="#8DD0FC", GradientType=1 );
+}
+body #app #ball {
+  position: absolute;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: black;
+}
+body #app .rod {
+  position: absolute;
+  width: 140px;
+  height: 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+body #app .rod#rod1 {
+  background-color: #800000;
+}
+body #app .rod#rod2 {
+  background-color: blue;
+}
